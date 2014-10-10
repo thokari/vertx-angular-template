@@ -59,6 +59,9 @@ repositories {
 dependencies {
   provided "io.vertx:vertx-core:$vertxVersion"
   provided "io.vertx:vertx-platform:$vertxVersion"
+  provided "org.codehaus.groovy:groovy-all:$groovyVersion"
+  provided 'org.codehaus.groovy:groovy-backports-compat23:2.3.5'
+  provided "io.vertx:lang-groovy:$groovyLangModVersion@jar"
   testCompile "junit:junit:$junitVersion"
   testCompile "io.vertx:testtools:$toolsVersion"
 }

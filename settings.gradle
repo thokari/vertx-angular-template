@@ -1,0 +1,2 @@
+include 'src/frontend'
+project(':src/frontend').name = 'frontend'
